@@ -53,7 +53,12 @@
       "matches": ["https://www.google.com/calendar/*"],
       "js": ["bind_googletask_calendar.js"],
       "run_at": "document_end"
-    }
+    },
+     {
+       "matches": ["https://*.jira.com/browse/*"],
+       "js": ["bind_jira.js"],
+       "run_at": "document_end"
+     }
   ],
 
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqmcPXz4CjBphP+HlVjJXbzLI3RrOlEtXJkdd5vVs57nm/uV5wC61SjMh5jDNRfQ/cJ6C/E10k2qp3OKv0vrY1f4HK2MNJ6WTUF1byqk3Rrpj4V0DlKS69ZqzHr4D1w2WfdHt/W43k+1G53ZKsXrmgxaFHsX7O2wg55FUb8Yr7pQIDAQAB"
